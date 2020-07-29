@@ -38,10 +38,14 @@ Deixe um webservice pronto para ser chamado que somente requisição com usuári
 
 #Instruções:
 Faça fork desse repositório envie-nos um Pull Request quando estiver pronto.
-Deve ser utilizado o Laravel ou codeigniter como framework PHP.
-Deve ser utilizado o Composer para gerenciar as dependências da aplicação.
-Deve ser utilizado docker em um ambiente linux para rodar a aplicação que será demosntrada via call.
-Crie um README com orientações para a instalação.
+Deve ser utilizado:
+    1) o Laravel ou codeigniter como framework PHP.
+    2) o Composer para gerenciar as dependências da aplicação.
+    3) docker em um ambiente linux para rodar a aplicação que será demosntrada via call.
+    4) o código deve ser versionado no github.
+    
+Crie um README com orientações para a instalação do sistema.
+
 
 #Plus ++
 Cubra pelo menos 3 recursos de seu código com testes unitários.
@@ -49,10 +53,10 @@ Utilize as melhores práticas da Orientação a Objetos.
 As tabelas do banco de dados criadas através de migrations.
 Pretendemos conectar um aplicativo mobile nesta nova plataforma.
 Observações:
-Não tenha pressa! O que será avaliado é a qualidade do código não a velocidade de desenvolvimento. Portanto, qualquer generator / scaffolding de CRUD, MVC, etc, torna-se desnecessário.
+Será avaliado é a qualidade do código não a velocidade de desenvolvimento.
 Se não for possível terminar todas as funcionalidades, não tem problema.
 
-Seu código-fonte não precisa ser bonito ou ter um UX excelente. Você pode optar por templates para o frontend.
+Você pode optar por templates para o frontend.
 
 Não precisa ser complexo, com varias lib’s e etc. O legal é usar o necessário para ter um código de qualidade e de fácil evolução.
 
