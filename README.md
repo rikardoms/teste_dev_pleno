@@ -1,16 +1,17 @@
 # teste_dev_pleno
-N|Eng. Rodolfo Romão
+
+#Eng. Rodolfo Romão
 
 Desenvolver uma aplicação simples utilizando Laravel ou Codeigniter.
 O objetivo desta avaliação é medir o nível de conhecimento do candidato nas áreas em que a vaga será exigida.
 
-N|Escopo
+#Escopo
 Deve-se criar uma aplicação em PHP para resolver o problema descrito abaixo, utilizando framework Laravel ou codeigniter. Fique a vontade para explorar todo o seu conhecimento em automação de tarefas, CSS e Javascript com JQuery ou qualquer outra ferramenta.
 
-N|Cenário fictício
+#Cenário fictício
 Prof. Jobim está lançando uma nova plataforma de ensino online. Nesta plataforma, desejamos realizar a matrícula de alunos em cursos através de um painel administrativo.
 
-N|Requisitos
+#Requisitos
 Um aluno pode ser matriculado em mais de um curso
 O administrador do sistema que realizará as matrículas. Não é necessário desenvolver tela para alunos.
 A consulta pelo nome, e-mail e/ou materia é requisito funcional.
@@ -29,20 +30,20 @@ nome (obrigatório)
 email (obrigatório)
 data de nascimento
 
-N|CRUD de Matrículas
+#CRUD de Matrículas
 Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma matrícula.
 
-N|REST API
+#REST API
 Deixe um webservice pronto para ser chamado que somente requisição com usuário e senha poderão utilizar tal serviço.
 
-Instruções:
+#Instruções:
 Faça fork desse repositório envie-nos um Pull Request quando estiver pronto.
 Deve ser utilizado o Laravel ou codeigniter como framework PHP.
 Deve ser utilizado o Composer para gerenciar as dependências da aplicação.
 Deve ser utilizado docker em um ambiente linux para rodar a aplicação que será demosntrada via call.
 Crie um README com orientações para a instalação.
 
-N|Plus ++
+#Plus ++
 Cubra pelo menos 3 recursos de seu código com testes unitários.
 Utilize as melhores práticas da Orientação a Objetos.
 As tabelas do banco de dados criadas através de migrations.
@@ -58,4 +59,4 @@ Não precisa ser complexo, com varias lib’s e etc. O legal é usar o necessár
 Lembrando código de qualidade, você pode e deve fazer o que achar necessário para isso, mesmo que não esteja listado aqui.
 
 
-Em caso de dúvidas, envie-nos um e-mail para rodolforomao@gmail.com
+#Em caso de dúvidas, envie-nos um e-mail para rodolforomao@gmail.com
