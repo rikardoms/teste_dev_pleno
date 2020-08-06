@@ -1,0 +1,19 @@
+﻿version: '3.4'
+services:
+            
+    code:
+        container_name: code
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "8081:80"
+        volumes:
+            - "./source/:/var/www/html/"
+            - "./cache-composer/:/root/.composer/"
+        networks:
+            - code
+        
+networks:
+    code:
+        driver: bridge
