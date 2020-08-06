@@ -1,0 +1,10 @@
+Comandos utilizados para a criação/inicialização do projeto
+Em uma pasta com somente os arquivos DockerFile e docker-compose.yml
+1. Rodar o comando:
+    docker-compose up --build
+
+2. Para conectar ao container:
+    docker exec -ti code bash
+
+3. Para criar o projeto:
+    composer create-project codeigniter4/appstarter app-code
