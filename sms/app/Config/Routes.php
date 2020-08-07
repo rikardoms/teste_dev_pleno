@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Posts::index');
 $routes->get('/posts', 'Posts::index/');
 $routes->get('/areacurso', 'Areacurso::index/');
+$routes->get('/aluno', 'Aluno::index/');
 //$routes->get('/posts(:any)', 'Posts::create/');
 
 /*
