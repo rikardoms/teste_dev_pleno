@@ -2,7 +2,7 @@
 
 use CodeIgniter\Database\Migration;
 
-class Aluno extends Migration
+class AddCurso extends Migration
 {
 	public function up()
 	{
@@ -12,29 +12,29 @@ class Aluno extends Migration
 					'type'           => 'INT',
 					'unsigned'       => true,
 					'auto_increment' => true,
-					
 			],
-			'nome'       => [
+			'titulo'       => [
 					'type'           => 'VARCHAR',
 					'constraint'     => '100',
 			],
-			'email'       => [
-				'type'           => 'VARCHAR',
-				'constraint'     => '250'
+			'descricao'       => [
+				'type'           => 'TEXT',
 			],
-			'data_nasc'       => [
-				'type'           => 'Date',
+			'id_area'       => [
+				'type'           => 'INT',
+				'unsigned'       => true,
+				'auto_increment' => true,
 			],
 		]);
 		$this->forge->addKey('id', true);
-		$this->forge->createTable('aluno');
+		$this->forge->createTable('curso');
 	}
 
 	//--------------------------------------------------------------------
 
 	public function down()
 	{
-		//
-		$this->forge->dropTable('aluno');
+		//curso
+		$this->forge->dropTable('curso');
 	}
 }
