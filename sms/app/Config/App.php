@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/teste_dev_pleno/sms/';
+	public $baseURL = 'http://localhost/teste_dev_pleno/sms/public/';
 
 	/*
 	|--------------------------------------------------------------------------
