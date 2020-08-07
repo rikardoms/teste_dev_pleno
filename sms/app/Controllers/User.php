@@ -1,6 +1,7 @@
-<?php
+<?php namespace App\Controllers;
+
 use CodeIgniter\Controller;
-use App\Models\UserModel;
+use CodeIgniter\Models\UserModel;
  
 class User extends Controller
 {
