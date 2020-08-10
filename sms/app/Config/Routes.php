@@ -35,6 +35,7 @@ $routes->get('/posts', 'Posts::index/');
 $routes->get('/areacurso', 'Areacurso::index/');
 $routes->get('/aluno', 'Aluno::index/');
 $routes->get('/curso', 'Curso::index/$1');
+$routes->get('/matricula', 'Matricula::index/');
 //$routes->get('/posts(:any)', 'Posts::create/');
 
 /*
